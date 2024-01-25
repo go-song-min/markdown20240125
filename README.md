@@ -87,3 +87,9 @@ System.out.println("Hello, world");
 ```
 [4-코드블럭](#4-코드블럭)
 
+### 12. 수학수식 : LaTex 구문
+$x^2 + y^2 = z^2$  
+
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
