@@ -20,14 +20,13 @@
 >다음줄로 갑니다.
 인용이 끝났습니다.
 
-### 4. 코드블록
-'''JAVA
+```JAVA
 public class Hello{
-  public static void main(String[] args) {
-    System.out.println("Hello, world");
-  }
+public static void main(String[] args) {
+System.out.println("Hello, world");
 }
-'''
+}
+```
 
 ### 5. 목록
 ---
@@ -63,4 +62,28 @@ public class Hello{
 ---[링크텍스트]{링크URL "설명"}---
 [네이버]{https://www.naver.com/ "네이버 홈페이지"}
 
-###
+### 8. 이미지 넣기
+```
+![링크텍스트](링크URL)
+```
+![test 이미지](https://github.com/go-song-min/markdown20240125/blob/main/doc/test.png)
+
+### 9. 글자강조
+일반 **굵은 글씨**  
+이텔릭체 : *이텔릭*
+
+### 10. 표
+|No|함수|의미|
+|:--------------:|--------------:|:--------------|
+|1|lower()|문자열을 소문자로 표시|
+|2|lower()|문자열을 소문자로 표시|
+|3|lower()|문자열을 소문자로 표시|
+|4|lower()|문자열을 소문자로 표시|
+|5|lower()|문자열을 소문자로 표시|
+
+### 11. 같은 페이지내 이동
+```
+[텍스트](이동할 위치)
+```
+[4-코드블럭](#4-코드블럭)
+
